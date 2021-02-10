@@ -1,0 +1,45 @@
+a:link {
+    color: green;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+h1, p{
+    text-align: left;
+    color: white;
+    display: block;
+}
+.b {
+    line-height: 2.6;
+}
+ul.course{
+    list-style-type: circle;
+    color:#FF0000;
+  }
+body{
+    background-image: url("../img/back.jpeg");
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.center {
+    display: block;
+    float: left;
+    width: 250px;
+    margin-top: 10px;
+    margin-left:60px;
+    margin-right: 60px;
+
+}
